@@ -1,0 +1,37 @@
+<%- include("template/rotulo") %>
+
+    <div class="container p-4">
+        <div class="row">
+            <%produc.forEach(function(produ){ %>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <%= produ.nombre %> $ <%=produ.valor%>
+                        </div>
+                        <img src="<%= produ.imagen %>" class="card-img-top">
+                        <div class="card-body">
+                            <p>
+                                <%= produ.descripcion %>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="/delete/<%= produ.id%>" class="btn btn-danger btn-block">DELETE</a>                            
+                               
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <% })%>
+        </div>
+
+    </div>
+
+   
+
+
+
+
+
+    <%- include("template/footer") %>

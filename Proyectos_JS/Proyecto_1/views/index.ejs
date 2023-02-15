@@ -1,0 +1,44 @@
+<%- include("template/rotulo") %>
+  <!--<h1 class="text-primary">Titulo de la página</h1>-->
+  <div class="container">
+    <div class="form-text">Registre nuevos productos </div>
+    <div class="card-body" , id="formulario">
+      <form method="POST" action="/">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" name="nombre">
+        </div>
+        <div class="mb-3">
+          <label for="valor" class="form-label">Valor</label>
+          <input type="number" class="form-control" name="valor">
+        </div>
+        <div class="mb-3">
+          <label for="descripción" class="form-label">Descripcion</label>
+          <input type="text" class="form-control" name="descripcion">
+        </div>
+        <div class="mb-3">
+          <label for="foto" class="form-label">Foto</label>
+          <input type="url" name="imagen" class="form-control" placeholder="http://website.com" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Registrar</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <%- include("template/footer") %>
+
+
+
+
+    <!--Desarrolle una aplicación con una interfaz que tenga las opciones de registrar productos y de
+presentarlos usando un NAVBAR. Inicialmente, existe un formulario con un botón que le permite
+registrar nuevos productos y una descripción del mismo (con campos tales como; Factura de venta,
+valor, vendedor, impuestos, entre otros) al pulsar un botón. Luego, cada vez que se registre un nuevo 
+producto se actualiza un menú NAVBAR con una opción que identifica al producto y al seleccionarla 
+presenta la información registrada más una foto que hace referencia a el mismo (La imagen
+presentada puede estar grabada en el directorio de trabajo). Finalmente, la aplicación desarrollada
+esta disponible en HEROKU para su visualización.
+-->
