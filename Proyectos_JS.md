@@ -4,6 +4,7 @@ Desarrolle una aplicación con una interfaz que tenga las opciones de registrar 
 * uso de motor de plantilla ejs
 * uso de npm
 * contenedores en docker para despliegue
+![P1](https://user-images.githubusercontent.com/64224078/219051216-8e1eae97-7093-49d4-8b6d-bf2705d4f2fa.png)
 
 
 PROYECTO 2
