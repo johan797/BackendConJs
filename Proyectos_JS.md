@@ -26,12 +26,16 @@ Cuando un usuario se equivoca 5 veces en digitar la contraseña, la cerradura se
 Cuando el usuario pasa la opción de ingreso solo puede acceder a las secciones de su trabajo (Entre  10 disponibles) asignadas al momento del registro (Ej. Manuel, Baño y bodega, Luis, Cocina y oficinas…), las demás quedan deshabilitadas.  
 
 Realice el despliegue de la aplicación en HEROKU de la aplicación desarrollada.
+![P3](https://user-images.githubusercontent.com/64224078/230523559-756a6a2e-adeb-4fd6-b2a8-e25a7e44613b.png)
+
 
 PROYECTO 4
 
 Haga una aplicación que le permita jugar baloncesto usando botones dispuestos en la interfaz de la aplicación, el marcador se actualiza cada vez que uno de los jugadores anota y se reproducirse un sonido de celebración grabado por el usuario. Además, la aplicación imprime la posición actual de los jugadores y una transmisión en STREAMING del narrador.
 
 Nota: los márgenes y delimitaciones de la cancha y jugadores son dibujados en el canvas y cada vez que se anote un punto debe aparecer un anuncio deportivo.
+![P4](https://user-images.githubusercontent.com/64224078/230523595-cfd83083-7ca6-448b-9528-ed2f6fe407f5.png)
+
 
 PROYECTO 5
 
