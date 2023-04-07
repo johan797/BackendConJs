@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+h4 {
+	text-align: center;
+	margin: 2px auto;
+	font-size: 15px;
+}
+
+p {
+	
+	font-size: 14px;	
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 5px;
+	border: 1px solid #802bff;
+	background-color: #642bff;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+input, .listaDesplegable {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	border-radius: 10px;
+}
+
+em {
+	
+	font-style: italic;
+}
+
+.signup.active {
+    display: block;
+}
+.signup {
+	z-index: 100;
+    background-color: #FFFFFF;
+	padding: 100px;
+    border: #171417;
+    border-style: solid ;
+	border-width: 1px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display:none;
+	border-radius: 1em;
+}
+
+#close {
+    position: absolute;
+    top: 2rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.desabilitar{
+	background-color: rgb(190, 189, 189);
+    color: #333;
+    pointer-events: none;
+	border: none;
+}

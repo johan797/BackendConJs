@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Proyecto #3</title>
+    <link rel="stylesheet" href="style/css.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>Proyecto 3- Cerradura Electronica</h2>
+
+
+    <div class="container" id="container">
+
+      <h1>Bienvenido a Tech Company</h1>
+      <p>
+        Si ya tienes una llave electronica puedes ingresar
+         en las instalaciones. Si aún no tienes una llave <br>
+          electronica da clic <em  id="signUp">AQUI</em> para
+        poder generarla automaticamente.
+      </p>
+
+       <div class="signup" >
+        <form method="dialog" action="#">
+          <h1>Crear una LLave</h1>
+          <span>Ingresa los siguientes datos</span>
+          <input
+            type="text"
+            placeholder="Nombre de Usuario"
+            id="usuarioRegistro"
+            autocomplete="off"
+          />
+          <select
+            name="tipoPermiso"
+            class="listaDesplegable"
+            id="selectRegistro"
+          >
+            <option selected="true" disabled="disabled">
+              Selecciona el tipo de permiso
+            </option>
+            <option value="Gerencia">Gerencia</option>
+            <option value="Sistemas">Sistemas</option>
+            <option value="Seguridad">Seguridad</option>            
+            <option value="Fabricacion">Fabricacion</option>            
+            <option value="Administracion">Administracion</option>
+            <option value="Desarrollo">Desarrollo</option>
+            <option value="Recursos">Recursos Humanos</option>
+            <option value="Contabilidad">Contabilidad</option>         
+
+          </select>
+          <input
+            type="password"
+            placeholder="Contraseña"
+            id="passwordRegistro"
+          />
+          <button onclick="crearUsuario();">Registrarse</button>
+        </form>
+        <i class='bx bx-x' id="close"></i> 
+      </div>
+    </div>
+
+      <div class="form-container sign-in-container">
+        <form method="dialog" action="#">
+          <h1>Ingresar</h1>
+          <span>Por favor ingresa tus credenciales para acceder</span>
+          <input
+            type="text"
+            placeholder="Usuario"
+            id="usuarioIngreso"
+            autocomplete="off"
+          />
+          <input
+            type="password"
+            placeholder="Contraseña"
+            id="passwordIngreso"
+            name="passwordIngreso"
+          />
+          <button id="botonIngresar" onclick="validarUsuario();">Entrar</button>
+        </form>
+      </div>
+
+      <div class="access" id="welcome"></div>
+    
+
+
+      
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
