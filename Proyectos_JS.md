@@ -10,6 +10,8 @@ Desarrolle una aplicación con una interfaz que tenga las opciones de registrar 
 PROYECTO 2
 
 Despliegue una aplicación WEB en HEROKU que incorpore un catálogo de productos para la venta con una opción para consultar el estado del inventario y gestionar la compra de nuevos insumos para el almacén (cuando las existencias disponibles sean menores a un valor preconfigurado en la aplicación por el usuario). Cada vez que se consulte el producto el usuario debe tener la posibilidad de visualizar varias vistas del producto a comprar (Ej. Vistas de mercadolibre), el valor total de las unidades seleccionadas y cantidad de las unidades por comprar (las unidades por comprar no exceden las existencias del inventario).
+![P2](https://user-images.githubusercontent.com/64224078/230518978-ea4e3cad-4115-428a-8371-4f80694642e3.png)
+
 
 PROYECTO 3
 
